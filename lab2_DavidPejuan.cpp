@@ -61,9 +61,44 @@ int main(){
 						       cout<<endl;
 						       int j;
 						       int contador=0;
+						       
 						       for(j=1;j<=numper;j++){
-							       for(){}
-						       }
+							       int valor2=0;
+							       int j2;
+							       for(j2=1;j2<=j;j2++){
+								       if(j2==j){
+								       if(valor2==j2){
+									       contador++;
+								       }}else{
+									       if((j%j2)==0){
+										       valor2=valor2+j2;
+										       cout<<"Valor2: "<<valor2<<endl;
+									       }
+								       }
+							       }//fin for
+						       }//
+						       cout<<"el contador quedo en: "<<contador<<endl;
+						       contador=contador-1;
+						       int numerosper[contador];
+						       int k;
+						       int bandera=0;
+						       for(k=1;k<=numper;k++){
+                                                               int valor3=0;
+                                                               int j3;
+                                                               for(j3=1;j3<=k;j3++){
+                                                                       if(j3==k){
+                                                                       if(valor3==j3){
+                                                                               numerosper[bandera]=k;
+									       bandera++;
+                                                                       }}else{
+                                                                               if((k%j3)==0){
+                                                                                       valor3=valor3+j3;
+                                                                                       //cout<<"Valor2: "<<valor2<<endl;
+                                                                               }
+                                                                       }
+                                                               }//fin for
+                                                       }//
+
 					       }
 				       }else{
 					       if((numper%i)==0){
