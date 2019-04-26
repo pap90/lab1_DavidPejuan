@@ -98,6 +98,7 @@ int main(){
                                                                        }
                                                                }//fin for
                                                        }//
+						       cout<<" el numero perfecto mas cercano es: "<<numerosper[contador]<<endl;
 
 
 					       }
