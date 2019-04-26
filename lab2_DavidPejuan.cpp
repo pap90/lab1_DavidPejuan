@@ -9,13 +9,16 @@ int main(){
 	while (seleccion!=4){
 		cout << "1)Captcha."<<endl
 			<< "2)Numero perfecto."<<endl
-			<<"3)Permutaciones."<<endl
+			<<"3)Permutaciones.(No lo hice :'v)"<<endl
 			<<"4)Salir"<<endl
 			<< "Ingrese su seleccion:";
 	       cin>> seleccion;
        cout<<endl;
        switch (seleccion){
 	       case 1:{
+		       cout<< "1) comparar un paso adelante "<<endl<<"2) comparar dos pasos adelantes. "<<endl<<"Ingrese seleccion: "<<endl;
+		       int seleccioncomp;
+		       cin>>seleccioncomp;
 		       cout<<"Ingrese el captcha: ";
 		       cin >> captcha;
 		       cout <<endl;
