@@ -56,6 +56,17 @@ int main(){
 				       if(i==numper){
 					       if(valor==numper){
 						       cout << "el numero es perfecto"<<endl;
+						       cout<< "sus factores son: ";
+						       int q;
+						       for(q=1;q<numper;q++){
+                                                               if(numper%q==0){
+                                                                       cout<<q<<" ";
+                                                               }
+                                                       }
+                                                       cout<<endl;
+
+
+
 					       }else{
 						       cout<<"El numero no es perfecto"<<endl;
 						       cout<<endl;
