@@ -72,7 +72,7 @@ int main(){
 								       }}else{
 									       if((j%j2)==0){
 										       valor2=valor2+j2;
-										       cout<<"Valor2: "<<valor2<<endl;
+										       //cout<<"Valor2: "<<valor2<<endl;
 									       }
 								       }
 							       }//fin for
@@ -98,6 +98,7 @@ int main(){
                                                                        }
                                                                }//fin for
                                                        }//
+
 
 					       }
 				       }else{
