@@ -77,7 +77,7 @@ int main(){
 								       }
 							       }//fin for
 						       }//
-						       cout<<"el contador quedo en: "<<contador<<endl;
+						       //cout<<"el contador quedo en: "<<contador<<endl;
 						       contador=contador-1;
 						       int numerosper[contador];
 						       int k;
@@ -99,6 +99,16 @@ int main(){
                                                                }//fin for
                                                        }//
 						       cout<<" el numero perfecto mas cercano es: "<<numerosper[contador]<<endl;
+						       cout<< "Sus factores son: ";
+						       int t;
+						       int numerocer=numerosper[contador];
+						       cout<<"el numero es: "<<numerosper[contador]<<endl;
+						       for(t=1;t<numerocer;t++){
+							       if(numerocer%t==0){
+								       cout<<t<<" ";
+							       }
+						       }
+						       cout<<endl;
 
 
 					       }
