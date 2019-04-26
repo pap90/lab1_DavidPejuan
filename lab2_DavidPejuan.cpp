@@ -19,32 +19,35 @@ int main(){
 		       cout<< "1) comparar un paso adelante "<<endl<<"2) comparar dos pasos adelantes. "<<endl<<"Ingrese seleccion: "<<endl;
 		       int seleccioncomp;
 		       cin>>seleccioncomp;
-		       cout<<"Ingrese el captcha: ";
-		       cin >> captcha;
-		       cout <<endl;
-		       int numero=0;
-		       int i;
-		       for(i=0;i<captcha.length();i++){
-			       if (i==captcha.length()-1){
-				       cout<<"entro"<<endl;
-				       int num1=captcha[i]-'0';
-				       cout << captcha[i] << endl;
-				       cout<<num1<<endl;
-				       int num2=captcha[0]-'0';
-				       cout<<num2<<endl;
-				       if(num1==num2){
-					       cout<<"entro 2"<<endl;
-					       numero=numero+num1;
-				       }//fin if
-			       }else{
-				      int num1=captcha[i]-'0';
-				      int num2=captcha[i+1]-'0';
-				      if(num1==num2){
-					      numero=numero+num1;
-				      }//fin if
-			       }//fin else
-		       }//fin for
-		       cout<<"El numero es: "<<numero<<endl;
+		       if(seleccioncomp==1){
+		       		cout<<"Ingrese el captcha: ";
+		       		cin >> captcha;
+		       		cout <<endl;
+		       		int numero=0;
+		       		int i;
+		       		for(i=0;i<captcha.length();i++){
+			       		if (i==captcha.length()-1){
+				       		cout<<"entro"<<endl;
+				       		int num1=captcha[i]-'0';
+				       		cout << captcha[i] << endl;
+				       		cout<<num1<<endl;
+				       		int num2=captcha[0]-'0';
+				       		cout<<num2<<endl;
+				       		if(num1==num2){
+					       		cout<<"entro 2"<<endl;
+					       		numero=numero+num1;
+				       		}//fin if
+			       		}else{
+				      		int num1=captcha[i]-'0';
+				      		int num2=captcha[i+1]-'0';
+				      		if(num1==num2){
+					      		numero=numero+num1;
+				      		}//fin if
+			       		}//fin else
+		       		}//fin for
+		       		cout<<"El numero es: "<<numero<<endl;
+		      }else{
+		      }
 		      }
 		       break;
 		case 2:{
@@ -133,6 +136,10 @@ int main(){
 					       }
 				       }
 			       }
+		       }
+		       break;
+		case 3:{
+
 		       }
 		       break;
 		default:{
