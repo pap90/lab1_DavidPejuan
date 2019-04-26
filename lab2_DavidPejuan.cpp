@@ -119,7 +119,7 @@ int main(){
 						       cout<< "Sus factores son: ";
 						       int t;
 						       int numerocer=numerosper[contador];
-						       cout<<"el numero es: "<<numerosper[contador]<<endl;
+						       //cout<<"el numero es: "<<numerosper[contador]<<endl;
 						       for(t=1;t<numerocer;t++){
 							       if(numerocer%t==0){
 								       cout<<t<<" ";
