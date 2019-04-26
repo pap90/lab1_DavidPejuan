@@ -51,8 +51,6 @@ int main(){
 			       cout<<endl;
 			       int i;
 			       int valor=0;
-			       int bandera=0;
-			       string 
 			       for(i=1;i<=numper;i++){
 				       //cout<<i<<endl;
 				       if(i==numper){
@@ -62,10 +60,9 @@ int main(){
 						       cout<<"El numero no es perfecto"<<endl;
 						       cout<<endl;
 						       int j;
-						       for(j=numper;j=0;j--){
-							       int numimp=j;
-							       while(){
-							       }
+						       int contador=0;
+						       for(j=1;j<=numper;j++){
+							       for(){}
 						       }
 					       }
 				       }else{
